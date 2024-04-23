@@ -2,15 +2,12 @@
 
 import { Carousel as Slider } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import image1 from "../../../public/images/Carousel1.jpg";
-import image2 from "../../../public/images/Carousel2.jpg";
-import image3 from "../../../public/images/Carousel3.jpg";
 import Image from "next/image";
 
 const imagesCarousel = [
-  { id: 1, image: image1 },
-  { id: 2, image: image2 },
-  { id: 3, image: image3 },
+  { id: 1, image: "https://picsum.photos/1280/720" },
+  { id: 2, image: "https://picsum.photos/1280/720" },
+  { id: 3, image: "https://picsum.photos/1280/720" },
 ];
 
 const Sliders = () => {
@@ -27,11 +24,11 @@ const Sliders = () => {
       {imagesCarousel.map((image) => (
         <div key={image.id}>
           <Image
-            src={image.image.src}
+            src={image.image}
             alt={`Imagen de Carousel${image.id}`}
             className="image-slider"
-            width={1920}
-            height={450}
+            width={1280}
+            height={720}
           />
         </div>
       ))}

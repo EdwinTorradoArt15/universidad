@@ -1,5 +1,5 @@
-import { Header } from "@/components/header";
-import { FirstNavbar, SecondNavbar } from "@/components/navbar";
+// import { Header } from "@/components/header";
+import { FirstNavbar } from "@/components/navbar";
 import { Sliders } from "@/components/sliders";
 import { Novedades } from "@/components/novedades";
 import { Proximas } from "@/components/proximas";
@@ -10,8 +10,8 @@ const page = () => {
   return (
     <>
       <FirstNavbar />
-      <Header />
-      <SecondNavbar />
+      {/* <Header /> */}
+      {/* <SecondNavbar /> */}
       <Sliders/>
       <Novedades/>
       <Proximas/>
