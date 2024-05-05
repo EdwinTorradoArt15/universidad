@@ -68,7 +68,7 @@ export const secondNavbarData = [
 
 export const links = [
   {
-    name: "Men",
+    name: "Programa",
     submenu: true,
     sublinks: [
       {
@@ -125,7 +125,7 @@ export const links = [
     ],
   },
   {
-    name: "Women",
+    name: "Formacion-Investigacion",
     submenu: true,
     sublinks: [
       {
@@ -182,7 +182,7 @@ export const links = [
     ],
   },
   {
-    name: "Kid's",
+    name: "Proyeccion social",
     submenu: true,
     sublinks: [
       {

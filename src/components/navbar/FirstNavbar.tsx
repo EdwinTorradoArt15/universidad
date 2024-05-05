@@ -22,12 +22,12 @@ const FirstNavbar = () => {
         <ul className="md:flex hidden uppercase items-center gap-8 z-50">
           <li>
             <Link href="/" className="py-7 px-3 inline-block">
-              Home
+              Inicio
             </Link>
           </li>
           <NavLinks />
         </ul>
-        <div className="md:block hidden">
+        <div className="md:block text-transparent ">
           <button>button</button>
         </div>
         {/* Mobile nav */}
@@ -43,7 +43,7 @@ const FirstNavbar = () => {
             </Link>
           </li>
           <NavLinks />
-          <div className="py-5">
+          <div className="py-5 ">
             <button>button</button>
             {/* <Button /> */}
           </div>
