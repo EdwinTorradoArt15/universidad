@@ -2,7 +2,7 @@ import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
 import PresentacionPrograma from "@/components/presentacion/PresentaiconPrograma";
 
-const Presentacion: React.FC = () => {
+const Presentacion: React.FC = () => { 
   return (
     <ProgramaLayout>
       {/* Contenido de la página */}

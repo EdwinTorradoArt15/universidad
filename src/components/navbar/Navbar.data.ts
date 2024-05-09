@@ -58,7 +58,7 @@ export const secondNavbarData = [
   },
   {
     id: 6,
-    name: "Infraestructura",
+    name: "Infraestructura", 
   },
   {
     id: 7,
@@ -72,10 +72,10 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Topwear",
+        Head: "Programa",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
+          { name: "Presentacion", link: "/programa/presentacion" },
+          { name: "Misión, Visión y Valores", link: "/programa/mision-vision" },
           { name: "formal shirts", link: "/" },
           { name: "formal shirts", link: "/" },
           { name: "formal shirts", link: "/" },
@@ -124,6 +124,11 @@ export const links = [
       },
     ],
   },
+
+
+
+
+
   {
     name: "Formacion-Investigacion",
     submenu: true,

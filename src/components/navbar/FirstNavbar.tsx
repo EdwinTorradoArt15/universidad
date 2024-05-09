@@ -17,7 +17,7 @@ const FirstNavbar = () => {
           <img src={logo.src} alt="logo" className="md:cursor-pointer h-9" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             {open ? <IoClose /> : <RxHamburgerMenu />}
-          </div>
+          </div> 
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 z-50">
           <li>
