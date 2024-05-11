@@ -76,7 +76,7 @@ export const links = [
         sublink: [
           { name: "Presentacion", link: "/programa/presentacion" },
           { name: "Misión, Visión y Valores", link: "/programa/mision-vision" },
-          { name: "formal shirts", link: "/" },
+          { name: "Propósito del Programa", link: "/programa/proposito" },
           { name: "formal shirts", link: "/" },
           { name: "formal shirts", link: "/" },
         ],

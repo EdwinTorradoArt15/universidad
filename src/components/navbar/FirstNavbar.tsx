@@ -4,7 +4,7 @@ import { useState } from "react";
 import { NavLinks } from "./";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
-import logo from "../../../public/images/LOGO_ING_ELECTROMECANICA.png"
+import logo from "../../../public/images/LOGO_ING_ELECTROMECANICA-2.png"
 import Link from "next/link";
 
 const FirstNavbar = () => {
@@ -14,11 +14,16 @@ const FirstNavbar = () => {
     <nav className="bg-[#aa1916] text-white">
       <div className="flex items-center font-medium justify-around ">
         <div className="z-[100] p-5 md:w-auto w-full flex justify-between">
-          <img src={logo.src} alt="logo" className="md:cursor-pointer h-9" />
+          <img src={logo.src} alt="logo" className="md:cursor-pointer h-20" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             {open ? <IoClose /> : <RxHamburgerMenu />}
-          </div> 
+          </div>
+
+        
         </div>
+        <p className="text-xs md:text-base md:ml-4 md:px-2 md:py-1 bg-[#aa1916] text-white rounded-lg">
+          <span className="text-lg">Ingeniería Electromecánica</span>
+        </p>
         <ul className="md:flex hidden uppercase items-center gap-8 z-50">
           <li>
             <Link href="/" className="py-7 px-3 inline-block">

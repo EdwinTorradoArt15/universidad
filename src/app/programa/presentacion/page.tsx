@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import PresentacionPrograma from "@/components/presentacion/PresentaiconPrograma";
+import PresentacionPrograma from "@/components/navbar/presentacion/PresentaiconPrograma";
 
 const Presentacion: React.FC = () => { 
   return (
@@ -186,45 +186,7 @@ const Presentacion: React.FC = () => {
           </table>
         </div>
 
-        <div className="flex my-10 justify-center items-center">
-          <h1 style={{ fontWeight: "bold", fontSize: "2rem" }}>
-            Misión, Visión y valores
-          </h1>
-        </div>
-
-        <div className="flex my-10 justify-center items-center">
-          <h2 style={{ fontWeight: "bold", fontSize: 16 }}>Misión</h2>
-        </div>
-
-        <p>
-          El Programa de Ingeniería Electromecánica de la UFPS está comprometido
-          en la formación integral de profesionales competentes en el campo de
-          la ingeniería, caracterizados por una sólida fundamentación en las
-          áreas de, control y automatización de procesos, sistemas de
-          conversión, distribución y uso final de la energía, enmarcado en un
-          Proyecto Educativo fundamentado en el mejoramiento continuo de los
-          procesos misionales; basados en los principios de excelencia
-          académica, con responsabilidad y compromiso con los procesos de
-          transformación de la región y del país ; contando con docentes de
-          calidad y con una adecuada infraestructura física y tecnológica.
-        </p>
-        <br />
-
-        <div className="flex my-10 justify-center items-center">
-          <h2 style={{ fontWeight: "bold", fontSize: 16 }}>Visión</h2>
-        </div>
-
-        <p>
-          En el año 2027, el Programa de Ingeniería Electromecánica de la UFPS
-          alcanzará niveles de alta calidad, enmarcados en procesos continuos de
-          mejoramiento, líder en la formación de ingenieros competentes en las
-          áreas de, control y automatización de procesos, sistemas de
-          conversión, distribución y uso final de la energía, comprometidos con
-          el desarrollo de la región y del país, afrontando las situaciones
-          cambiantes del medio. Apoyados en una estructura curricular flexible,
-          con un equipo administrativo idóneo, con docentes de calidad, con una
-          adecuada infraestructura física y tecnológica.
-        </p>
+        
         <br />
       </div>
     </ProgramaLayout>
