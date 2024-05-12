@@ -80,7 +80,7 @@ export const links = [
           { name: "Perfiles", link: "/programa/perfiles" },
           { name: "Competencias", link: "/programa/competencias" },
           { name: "Diseño curricular", link: "/programa/curriculum" },
-          { name: "Aspectos academicos", link: "/programa/aspectos_academicos/" },
+          { name: "Aspectos academicos", link: "/programa/aspectos/" },
         ],
       }
     ],
