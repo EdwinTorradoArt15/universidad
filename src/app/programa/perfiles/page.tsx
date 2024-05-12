@@ -1,8 +1,8 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import MisionVisionComponent from "@/components/mision-vision/mision-vision";
+import PerfilesComponent from "@/components/perfiles/perfiles";
 
-const MisionVision: React.FC = () => {
+const Perfiles: React.FC = () => {
   return (
     <ProgramaLayout> 
       {/* Contenido de la página */}
@@ -13,11 +13,11 @@ const MisionVision: React.FC = () => {
       >
         <br />
 
-    <MisionVisionComponent></MisionVisionComponent>
+    <PerfilesComponent></PerfilesComponent>
 
       </div>
     </ProgramaLayout>
   );
 };
 
-export default MisionVision;
+export default Perfiles;

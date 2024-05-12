@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import PropositoPrograma from "@/components/navbar/proposito/Proposito";
+import PropositoPrograma from "@/components/proposito/Proposito";
 
 const Proposito: React.FC = () => {
   return (

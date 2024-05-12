@@ -1,8 +1,8 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import PresentacionPrograma from "@/components/presentacion/PresentaiconPrograma";
+import CompetenciasComponent from "@/components/competencias/competencias";
 
-const Presentacion: React.FC = () => { 
+const Competencias: React.FC = () => { 
   return (
     <ProgramaLayout>
       {/* Contenido de la página */}
@@ -11,9 +11,9 @@ const Presentacion: React.FC = () => {
         style={{ marginTop: "30px", textAlign: "justify" }}
       ></div>
 
-      <PresentacionPrograma></PresentacionPrograma>
+      < CompetenciasComponent></ CompetenciasComponent>
 
-      <div  className="mx-25"   style={{ marginTop: "30px", textAlign: "justify" }}
+     {/* <div  className="mx-25"   style={{ marginTop: "30px", textAlign: "justify" }}
       >
         <br />
 
@@ -188,9 +188,9 @@ const Presentacion: React.FC = () => {
 
         
         <br />
-      </div>
+      </div> */  }
     </ProgramaLayout>
   );
 };
 
-export default Presentacion;
+export default Competencias;

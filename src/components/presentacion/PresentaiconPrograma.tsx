@@ -2,7 +2,7 @@ export default function PresentacionPrograma() {
   return (
     <>
       <div className="container mx-auto px-4 py-12">
-        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden"> 
           <div className="p-6 sm:flex sm:items-center sm:justify-between">
             <div>
               <div className="flex my-10 justify-center items-center">
@@ -17,7 +17,7 @@ export default function PresentacionPrograma() {
                 crecimiento institucional y alcanzar los propósitos de hacer de la
                 universidad una institución de excelencia formativa, comprometida
                 socialmente e innovadora.
-              </p>
+              </p>  
             </div>
           </div>
         </div>

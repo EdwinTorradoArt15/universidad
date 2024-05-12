@@ -1,6 +1,15 @@
+'use client'
 import React, { useState , ReactNode , ComponentType } from "react";
 import  VerMasButton  from "@/components/ui/button"
 import { FaRocket } from "react-icons/fa";
+
+import { FaPersonRays } from "react-icons/fa6";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { LuBrainCircuit } from "react-icons/lu";
+import { PiLightbulbFilamentThin, PiPersonLight } from "react-icons/pi";
+import { HiOutlineUserGroup } from "react-icons/hi";
+import { GoGoal } from "react-icons/go";
+
 
 
 
@@ -28,6 +37,18 @@ import { FaRocket } from "react-icons/fa";
             title: 'Propositos Humanos',
             component: React.lazy(() => import('./propositos_humanos'))
           },
+          propositos_sociales: {
+            title: 'Propositos Sociales',
+            component: React.lazy(() => import('./propositos_sociales'))
+          },
+          propositos_intelectuales: {
+            title: 'Propositos Intelectuales',
+            component: React.lazy(() => import('./propositos_intelectuales'))
+          },
+          propositos_profesionales: {
+            title: 'Propositos Profesionales',
+            component: React.lazy(() => import('./propositos_profesionales'))
+          },
           // Otros contenidos largos
         };
 
@@ -38,9 +59,9 @@ import { FaRocket } from "react-icons/fa";
         <div className="container-fluid grid gap-6 px-4 md:px-6">
           <div className="bg-white rounded-lg shadow-lg dark:bg-gray-950 flex flex-row items-center justify-between p-6 hover:shadow-2xl transition-shadow duration-300">
             <div className="flex items-center gap-4">
-              <div className="bg-gray-100 rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-800">
+              <div className="rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-800">
                 
-                <FaRocket className="w-6 h-6" ></FaRocket>
+                < GoGoal className="w-20 h-20" ></GoGoal>
               </div>
               <h2 className="text-lg font-semibold">Propositos del programa</h2>
               <p className="text-gray-500 dark:text-gray-400 animate-fadeIn">
@@ -54,22 +75,22 @@ import { FaRocket } from "react-icons/fa";
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white rounded-lg shadow-lg dark:bg-gray-950 flex flex-col items-center justify-center p-6 hover:shadow-2xl transition-shadow duration-300">
               <div className="bg-gray-100 rounded-md flex items-center justify-center aspect-square w-full h-1/2 dark:bg-gray-800 animate-pulse">
-                <img
-                  alt="Rocket"
-                  className="w-5 h-5"
+                <PiPersonLight  className="w-20 h-20"
                   height={32}
-                  src="/placeholder.svg"
+                  
                   style={{
                     aspectRatio: "32/32",
                     objectFit: "cover",
                   }}
-                  width={32}
-                />
+                  width={32} ></PiPersonLight>
+                
+
+
               </div>
               <div className="mt-6 flex-1 w-full text-center">
                 <h3 className="text-lg font-semibold animate-fadeIn">Propositos Humanos</h3>
                 <p className="text-gray-500 dark:text-gray-400 animate-fadeIn">
-                Desarrollar profesionales éticos y conscientes, capacitados en relaciones interpersonales, responsables de su labor y comprometidos con la construcción de una sociedad justa y equitativa.
+                Desarrollar profesionales éticos, capacitados en relaciones interpersonales, responsables de su labor y comprometidos con la construcción de una sociedad justa y equitativa.
                 </p>
               </div>
               <div className="mt-6">
@@ -79,77 +100,68 @@ import { FaRocket } from "react-icons/fa";
             </div>
             <div className="bg-white rounded-lg shadow-lg dark:bg-gray-950 flex flex-col items-center justify-center p-6 hover:shadow-2xl transition-shadow duration-300">
               <div className="bg-gray-100 rounded-md flex items-center justify-center aspect-square w-full h-1/2 dark:bg-gray-800 animate-pulse">
-                <img
-                  alt="Target"
-                  className="w-5 h-5"
+              <HiOutlineUserGroup  className="w-20 h-20"
                   height={32}
-                  src="/placeholder.svg"
+                  
                   style={{
                     aspectRatio: "32/32",
                     objectFit: "cover",
                   }}
-                  width={32}
-                />
+                  width={32} ></HiOutlineUserGroup>
               </div>
               <div className="mt-6 flex-1 w-full text-center">
-                <h3 className="text-lg font-semibold animate-fadeIn">Nuestra Visión</h3>
+                <h3 className="text-lg font-semibold animate-fadeIn">Propositos sociales</h3>
                 <p className="text-gray-500 dark:text-gray-400 animate-fadeIn">
-                  Convertirnos en la empresa líder en nuestro sector, reconocida por nuestra excelencia y compromiso con
-                  la innovación.
+                 
+                Los propósitos sociales del programa de Ingeniería Electromecánica buscan formar profesionales comprometidos con el servicio a la comunidad
                 </p>
               </div>
               <div className="mt-6">
-              <VerMasButton >
+              <VerMasButton onClick={() => openModal(contenidoLargo.propositos_sociales)}>
                 </VerMasButton>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg dark:bg-gray-950 flex flex-col items-center justify-center p-6 hover:shadow-2xl transition-shadow duration-300">
               <div className="bg-gray-100 rounded-md flex items-center justify-center aspect-square w-full h-1/2 dark:bg-gray-800 animate-pulse">
-                <img
-                  alt="Rocket"
-                  className="w-5 h-5"
+              <PiLightbulbFilamentThin  className="w-20 h-20"
                   height={32}
-                  src="/placeholder.svg"
+                  
                   style={{
                     aspectRatio: "32/32",
                     objectFit: "cover",
                   }}
-                  width={32}
-                />
+                  width={32} ></PiLightbulbFilamentThin>
               </div>
               <div className="mt-6 flex-1 w-full text-center">
-                <h3 className="text-lg font-semibold animate-fadeIn">Nuestros Valores</h3>
+                <h3 className="text-lg font-semibold animate-fadeIn">Propositos Intelectuales</h3>
                 <p className="text-gray-500 dark:text-gray-400 animate-fadeIn">
-                  Integridad, excelencia, innovación y compromiso con nuestros clientes.
+                Impulsar el uso óptimo de herramientas y técnicas actualizadas,  para formar profesionales con conocimientos en el campo de la ingeniería electromecánica
                 </p>
               </div>
               <div className="mt-6">
-              <VerMasButton >
+              <VerMasButton onClick={() => openModal(contenidoLargo.propositos_intelectuales)}>
                 </VerMasButton>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg dark:bg-gray-950 flex flex-col items-center justify-center p-6 hover:shadow-2xl transition-shadow duration-300">
               <div className="bg-gray-100 rounded-md flex items-center justify-center aspect-square w-full h-1/2 dark:bg-gray-800 animate-pulse">
-                <img
-                  alt="Target"
-                  className="w-5 h-5"
+              <LuBrainCircuit   className="w-20 h-20"
                   height={32}
-                  src="/placeholder.svg"
+                  
                   style={{
-                    aspectRatio: "32/32",
+                    aspectRatio: "62/62",
                     objectFit: "cover",
                   }}
-                  width={32}
-                />
+                  width={64} ></LuBrainCircuit >
               </div>
               <div className="mt-6 flex-1 w-full text-center">
-                <h3 className="text-lg font-semibold animate-fadeIn">Nuestros Servicios</h3>
+                <h3 className="text-lg font-semibold animate-fadeIn">Propositos Profesionales</h3>
                 <p className="text-gray-500 dark:text-gray-400 animate-fadeIn">
-                  Ofrecemos una amplia gama de servicios para satisfacer las necesidades de nuestros clientes.
+                Capacitar ingenieros para liderar empresas tecnológicas, resolver problemas complejos y mejorar la calidad de vida, fomentando la educación continua y la difusión del conocimiento.
                 </p>
               </div>
               <div className="mt-6">
-              <VerMasButton >
+              <VerMasButton onClick={() => openModal(contenidoLargo.propositos_profesionales)}>
                 </VerMasButton>
               </div>
             </div>
@@ -162,8 +174,6 @@ import { FaRocket } from "react-icons/fa";
        
       
       </div>
-
-
       {modalOpen && modalContent && (
   <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
     <div className="bg-white p-6 rounded-lg">
@@ -178,7 +188,10 @@ import { FaRocket } from "react-icons/fa";
       </button>
     </div>
   </div>
-)}
+)}  
+
+                  
+
     </>
   )
 }

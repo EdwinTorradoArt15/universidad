@@ -11,9 +11,9 @@ const FirstNavbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-[#aa1916] text-white">
+    <nav className="bg-[#aa1916] text-white z-10">
       <div className="flex items-center font-medium justify-around ">
-        <div className="z-[100] p-5 md:w-auto w-full flex justify-between">
+        <div className="z-1 p-5 md:w-auto w-full flex justify-between">
           <img src={logo.src} alt="logo" className="md:cursor-pointer h-20" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             {open ? <IoClose /> : <RxHamburgerMenu />}
