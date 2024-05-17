@@ -14,11 +14,11 @@ const PropositosProfesionales = () => {
           <section className="w-full py-12 md:py-2">
             <div className="container grid gap-6 px-4 md:px-6">
            
-              <div className="bg-white rounded-lg shadow-lg dark:bg-gray-950 p-6 hover:shadow-2xl transition-shadow duration-300">
+              <div className="bg-white rounded-lg shadow-lg  p-6 hover:shadow-2xl transition-shadow duration-300">
                
                 <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
-                  <li className="bg-gray-100 rounded-lg p-4 dark:bg-gray-800 flex flex-col items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-700 mb-4">
+                  <li className="bg-gray-100 rounded-lg p-4  flex flex-col items-center justify-center hover:bg-gray-200  transition-colors duration-300">
+                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12  mb-4">
                     <MdOutlineEngineering  className='w-6 h-6'  style={{
                           aspectRatio: "32/32",
                           objectFit: "cover",
@@ -32,8 +32,8 @@ const PropositosProfesionales = () => {
                     Formar ingenieros capaces de crear, dirigir y administrar empresas de base tecnológica, que aporten soluciones a los requerimientos que se presenten. 
                     </p>
                   </li>
-                  <li className="bg-gray-100 rounded-lg p-4 dark:bg-gray-800 flex flex-col items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-700 mb-4">
+                  <li className="bg-gray-100 rounded-lg p-4  flex flex-col items-center justify-center hover:bg-gray-200  transition-colors duration-300">
+                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12  mb-4">
                  
                     <MdOutlineEngineering  className='w-6 h-6'  style={{
                           aspectRatio: "32/32",
@@ -47,8 +47,8 @@ const PropositosProfesionales = () => {
                     Dotar al profesional de Ingeniería Electromecánica de herramientas científicas y tecnológicas para solucionar problemas complejos que requieran el empleo del modelamiento matemático y los avances técnicos específicos del área, fortaleciendo las relaciones Universidad – Empresa – Comunidad en aras de contribuir al desarrollo regional fronterizo. 
                     </p>
                   </li>
-                  <li className="bg-gray-100 rounded-lg p-4 dark:bg-gray-800 flex flex-col items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-700 mb-4">
+                  <li className="bg-gray-100 rounded-lg p-4  flex flex-col items-center justify-center hover:bg-gray-200  transition-colors duration-300">
+                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12  mb-4">
                     <MdOutlineEngineering   className='w-6 h-6'  style={{
                           aspectRatio: "32/32",
                           objectFit: "cover",
@@ -60,8 +60,8 @@ const PropositosProfesionales = () => {
                     Consolidar la formación de un profesional con sólidos conocimientos que le permiten transferir soluciones tecnológicas a problemas de su entorno, con el fin de optimar los procesos productivos y la calidad de vida de la ciudadanía. 
                     </p>
                   </li>
-                  <li className="bg-gray-100 rounded-lg p-4 dark:bg-gray-800 flex flex-col items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-700 mb-4">
+                  <li className="bg-gray-100 rounded-lg p-4  flex flex-col items-center justify-center hover:bg-gray-200  transition-colors duration-300">
+                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12  mb-4">
                     <MdOutlineEngineering className='w-6 h-6'  style={{
                           aspectRatio: "32/32",
                           objectFit: "cover",
@@ -74,8 +74,8 @@ const PropositosProfesionales = () => {
                     </p>
                   </li>        
                 
-                  <li className="bg-gray-100 rounded-lg p-4 dark:bg-gray-800 flex flex-col items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-700 mb-4">
+                  <li className="bg-gray-100 rounded-lg p-4  flex flex-col items-center justify-center hover:bg-gray-200  transition-colors duration-300">
+                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12  mb-4">
                     <MdOutlineEngineering className='w-6 h-6'  style={{
                           aspectRatio: "32/32",
                           objectFit: "cover",
@@ -88,8 +88,8 @@ const PropositosProfesionales = () => {
                     </p>
                   </li> 
 
-                  <li className="bg-gray-100 rounded-lg p-4 dark:bg-gray-800 flex flex-col items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300">
-                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12 dark:bg-gray-700 mb-4">
+                  <li className="bg-gray-100 rounded-lg p-4  flex flex-col items-center justify-center hover:bg-gray-200  transition-colors duration-300">
+                    <div className="bg-gray-200 rounded-md flex items-center justify-center aspect-square w-12 h-12  mb-4">
                     <MdOutlineEngineering className='w-6 h-6'  style={{
                           aspectRatio: "32/32",
                           objectFit: "cover",

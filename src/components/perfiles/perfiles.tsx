@@ -16,7 +16,9 @@ export default function PerfilesComponent() {
             la Universidad Francisco de Paula Santander, debe contar con
             educación media con título de bachiller, la selección se realiza con
             base en los resultados de las pruebas saber 11, debe tener:
-            <ul>
+         
+          </p>
+          <ul className="text-gray-500 dark:text-gray-400 text-justify">
               <li>
                 1. Buen dominio de las matemáticas y de las ciencias aplicadas
               </li>
@@ -33,7 +35,6 @@ export default function PerfilesComponent() {
                 de la sociedad mediante la implementación de nuevas tecnologías
               </li>
             </ul>
-          </p>
         </div>
         <div className="p-6 flex flex-col items-center text-center shadow-lg rounded-lg animate-fadeIn">
           <div className="bg-gray-100 rounded-full p-3 mb-4">
