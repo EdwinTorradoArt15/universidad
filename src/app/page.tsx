@@ -7,7 +7,7 @@ import { Galeria } from "@/components/galeria";
 import { Footer } from "@/components/footer";
 
 const page = () => {
-  return (
+  return (   
     <>
       <FirstNavbar />
       {/* <Header /> */}
