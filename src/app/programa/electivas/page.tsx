@@ -1,7 +1,7 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import Electivas from "@/components/electivas/electivas"
-import TablaElectivasTecnicas from "@/components/electivas/tablaElectivasTecnicas"
+import Electivas from "@/components/programa/electivas/electivas"
+import TablaElectivasTecnicas from "@/components/programa/electivas/tablaElectivasTecnicas"
 
 const MisionVision: React.FC = () => {
   return (

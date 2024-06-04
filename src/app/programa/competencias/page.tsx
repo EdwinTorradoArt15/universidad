@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import CompetenciasComponent from "@/components/competencias/competencias";
+import CompetenciasComponent from "@/components/programa/competencias/competencias";
 
 const Competencias: React.FC = () => { 
   return (

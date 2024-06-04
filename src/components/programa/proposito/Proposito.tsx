@@ -2,7 +2,7 @@
 
 
 import React, { Suspense, useState, ComponentType } from "react";
-import VerMasButton from '@/components/ui/button';
+import VerMasButton from '@/components/ui/verMasButton';
 import { GoGoal } from 'react-icons/go';
 import { HiOutlineUserGroup } from 'react-icons/hi';
 import { LuBrainCircuit } from 'react-icons/lu';

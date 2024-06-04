@@ -1,11 +1,12 @@
-import eje_transversal from "../../../public/images/ejes_transversales.jpg";
-import eje_profesional from "../../../public/images/ejes_profesionales.jpg";
+import eje_transversal from "../../../../public/images/ejes_transversales.jpg";
+import eje_profesional from "../../../../public/images/ejes_profesionales.jpg";
 
 export default function DiseñoCurricularComponent() {
   return (
     <>
       <div className="container mx-auto px-4 py-12">
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
+
           <div className="p-6 sm:flex sm:items-center sm:justify-between">
             <div>
               <div className="flex my-10 justify-center items-center">

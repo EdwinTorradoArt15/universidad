@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Component() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="flex h-20 w-full shrink-0 items-center px-4 md:px-6 bg-[#aa1916] z-50">
+    <header className="flex h-10 w-full shrink-0 items-center px-3 md:px-6 bg-[#aa1916] z-50">
       <div className="flex w-full justify-between items-center">
         <div className="hidden lg:flex">
           <nav className="flex gap-6 text-lg font-medium md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 text-white">

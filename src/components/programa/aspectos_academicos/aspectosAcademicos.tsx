@@ -2,7 +2,7 @@ import eje_transversal from "../../../public/images/ejes_transversales.jpg";
 import eje_profesional from "../../../public/images/ejes_profesionales.jpg";
 import TablaCurriculum from "./tablaCurriculum";
 import TablaRelacionPorcentaje from "./tablaRelacionPorcentaje";
-
+import TablaElectivas from "./tablaElectivas";
 
 export default function AspectosAcademicos() {
   return (
@@ -235,7 +235,7 @@ export default function AspectosAcademicos() {
                 El Programa Ingeniería Electromecánica adopta dentro de sus
                 criterios las siguientes estrategias de flexibilidad:
               </p>
-              <p>
+              <div>
                 <ul>
                   <li> • El uso de los créditos académicos. </li>
                   <li>
@@ -293,50 +293,83 @@ export default function AspectosAcademicos() {
                     </ul>
                   </li>
                 </ul>
+              </div>
+
+              <div>
+                <h2
+                  style={{ fontWeight: "bold", fontSize: "1rem" }}
+                  className="text-lg font-semibold mb-4 my-20"
+                >
+                  El Plan de Estudios en Créditos Académicos
+                </h2>
+
+                <p className="justify-left my-10">
+                  La distribución de créditos en la malla curricular, se realiza
+                  teniendo en cuenta, la intensidad horaria y el tiempo de
+                  dedicación necesaria por parte de los estudiantes, manteniendo
+                  la concepción del valor de crédito en cuanto a su equivalencia
+                  matemática de: 1 Crédito Académico = 48 Horas Semestrales.
+                  distribuidas en horas teóricas presenciales, horas prácticas
+                  (equivalentes a horas de trabajo directo HTD) y horas de
+                  trabajo independiente (HTI) semestrales. En las tablas
+                  <strong>
+                    {" "}
+                    Estructura malla curricular ingeniería electromecánica
+                  </strong>
+                  y <strong>Relación porcentual de créditos</strong> se muestra
+                  la estructura general de la malla curricular y la distribución
+                  de créditos académicos y su relación porcentual.
+                </p>
+              </div>
+
+              <div>
+                {" "}
+                <TablaCurriculum></TablaCurriculum>
+              </div>
+              <div>
+                <TablaRelacionPorcentaje></TablaRelacionPorcentaje>
+              </div>
+
+              <div className="flex my-10 justify-center items-center">
+                <h1 style={{ fontWeight: "bold", fontSize: "2rem" }}>
+                  Electivas
+                </h1>
+              </div>
+
+              <div className="flex my-10 justify-left items-center">
+                <h1 style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
+                  Cursos electivos
+                </h1>
+              </div>
+
+              <p className="text-gray-600 sm:text-base lg:text-lg">
+                Con el objeto de fortalecer las líneas de profundización y
+                teniendo en cuenta las necesidades identificadas en el sector
+                productivo, y los avances tecnológicos, el programa de
+                ingeniería electromecánica oferta en su malla curricular 4
+                cursos electivos, que les permitirán a los estudiantes
+                profundizar su aprendizaje. La oferta de electivas se muestra en
+                la siguiente tabla.
               </p>
-
-            <div>
-            <h2
-                style={{ fontWeight: "bold", fontSize: "1rem" }}
-                className="text-lg font-semibold mb-4 my-20"
-              >
-                El Plan de Estudios en Créditos Académicos
-              </h2>
-
-              <p className="justify-left my-10">
-                La distribución de créditos en la malla curricular, se realiza
-                teniendo en cuenta, la intensidad horaria y el tiempo de
-                dedicación necesaria por parte de los estudiantes, manteniendo
-                la concepción del valor de crédito en cuanto a su equivalencia
-                matemática de: 1 Crédito Académico = 48 Horas Semestrales. distribuidas en horas teóricas presenciales, horas prácticas
-                (equivalentes a horas de trabajo directo HTD) y horas de trabajo
-                independiente (HTI) semestrales. En las tablas 
-                 <strong> Estructura malla curricular ingeniería electromecánica</strong>
-                y  <strong>Relación porcentual de créditos</strong>  se muestra la
-                estructura general de la malla curricular y la distribución de
-                créditos académicos y su relación porcentual.
-              </p>
-
-
-          
-
-            </div>
-
-            <TablaCurriculum></TablaCurriculum>
-            <TablaRelacionPorcentaje></TablaRelacionPorcentaje>
-         
-         
-
-
-
-
-
+              <br />
+           
+              <div>
+             < TablaElectivas></ TablaElectivas>
+              </div>
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
             </div>
           </div>
         </div>
       </div>
-
-     
 
       <br />
       <div></div>

@@ -8,9 +8,6 @@ import escudo_colombia from "../../../public/images/escudo_colombia.png"
 import sello from "../../../public/images/sello_acreditacion.png"
 
 
-
-
-
 import { useState } from "react";
 import { NavLinks } from "./";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -23,9 +20,7 @@ const FirstNavbar = () => {
 
   return (
 
-    <>
-
-
+    <> 
       <TopNavbar></TopNavbar>
       <header className="relative h-[210px] overflow-hidden">
         
@@ -37,8 +32,7 @@ const FirstNavbar = () => {
         height={150}
         src={sello.src}
         style={{
-          aspectRatio: "337/150",
-        
+          aspectRatio: "337/150",         
         }}
         width={337}
       />
@@ -56,9 +50,7 @@ const FirstNavbar = () => {
     </div>
 
     </header>
-
-
-
+    
     <nav className="bg-[#aa1916] text-white z-10">
       <div className="flex items-center font-medium justify-between p-5">
         <div className="flex items-center md:w-auto w-full">
@@ -107,7 +99,5 @@ const FirstNavbar = () => {
     </nav>
     </>
   );
-};
-
-
+};  
 export default FirstNavbar;

@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import PerfilesComponent from "@/components/perfiles/perfiles";
+import PerfilesComponent from "@/components/programa/perfiles/perfiles";
 
 const Perfiles: React.FC = () => {
   return (

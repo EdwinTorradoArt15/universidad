@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import AspectosAcademicos from "@/components/aspectos_academicos/aspectosAcademicos";
+import AspectosAcademicos from "@/components/programa/aspectos_academicos/aspectosAcademicos";
 
 const Perfiles: React.FC = () => {
   return (

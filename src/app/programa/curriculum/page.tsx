@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import DiseñoCurricularComponent from "@/components/diseño-curricular/diseñoCurricular";
+import DiseñoCurricularComponent from "@/components/programa/diseño-curricular/diseñoCurricular";
 
 const diseñoCurricular: React.FC = () => { 
   return (

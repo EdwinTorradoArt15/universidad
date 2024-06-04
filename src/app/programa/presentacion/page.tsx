@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import PresentacionPrograma from "@/components/presentacion/PresentaiconPrograma";
+import PresentacionPrograma from "@/components/programa/presentacion/PresentaiconPrograma";
 
 const Presentacion: React.FC = () => { 
   return (

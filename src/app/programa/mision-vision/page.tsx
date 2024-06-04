@@ -1,6 +1,6 @@
 import React from "react";
 import ProgramaLayout from "@/app/layouts/programaLayout";
-import MisionVisionComponent from "@/components/mision-vision/mision-vision";
+import MisionVisionComponent from "@/components/programa/mision-vision/mision-vision";
 
 const MisionVision: React.FC = () => {
   return (

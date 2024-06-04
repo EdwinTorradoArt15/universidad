@@ -81,70 +81,30 @@ export const links = [
           { name: "Competencias", link: "/programa/competencias" },
           { name: "Diseño curricular", link: "/programa/curriculum" },
           { name: "Aspectos academicos", link: "/programa/aspectos/" },
-        ],
+          { name: "Comité curricular", link: "/programa/comite_curricular/" },
+          { name: "Profesores", link: "/programa/profesores" },
+          { name: "Autoevaluacion", link: "/programa/autoevaluacion/" },
+          { name: "Plan de mejoramiento", link: "/programa/plan_de_mejoramiento/" },
+        ] ,
       }
     ],
   },
-
-
-
-
 
   {
     name: "Formacion-Investigacion",
     submenu: true,
     sublinks: [
       {
-        Head: "Topwear",
+        Head: "Formacion-Investigacion",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Investigación en el Programa", link: "/formacion-investigacion/investigacion" },
+          { name: "Hablemos de investigacion", link: "/formacion-investigacion/hablemos_de_investigacion" },
+          { name: "Grupos de investigación", link: "/formacion-investigacion/grupos" },
+          { name: "Proyectos", link: "/formacion-investigacion/proyectos" },
+          { name: "Capsulas de aprendizaje", link: "/formacion-investigacion/capsulas" },
         ],
       },
-      {
-        Head: "Bottomwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "innerwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-
-      {
-        Head: "sleepwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "footwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
+      
     ],
   },
   {
@@ -152,56 +112,98 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Topwear",
+        Head: "Proyeccion social",
         sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
+          { name: "Proyeccion social", link: "/proyeccion_social/proyeccion" },
+          { name: "Extensión", link: "/proyeccion_social/extension" },
+          { name: "Practicas empresariales", link: "/proyeccion_social/practicas" },
+         
         ],
-      },
-      {
-        Head: "Bottomwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "innerwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-
-      {
-        Head: "sleepwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
-      {
-        Head: "footwear",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
-      },
+      }
     ],
   },
+  {
+    name: "Visibilidad-Movilidad",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "Visibilidad-Movilidad",
+        sublink: [
+          { name: "Entorno nacional e internacional", link: "/visibilidad-movilidad/interaccion" },
+          { name: "Mobilidad del programa", link: "/visibilidad-movilidad/movilidad" },
+          { name: "Convocatorias Vigentes", link: "/visibilidad-movilidad/convocatorias_vigentes" },
+          { name: "EISI", link: "/visibilidad-movilidad/EISI" },
+          { name: "CIINATIC", link: "/visibilidad-movilidad/CIINATIC" },
+          { name: "Oficina de Relaciones Internacionales", link: "/visibilidad-movilidad/relaciones_internacionales" },
+         
+        ],
+      }
+    ],
+  },
+  {
+    name: "Bienestar",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "Bienestar",
+        sublink: [
+          { name: "Bienestar univiersitario", link: "/bienestar/bienestar_universitario" },
+          { name: "Bienestar univiersitario en el programa", link: "/bienestar/bienestar_universitario_en_el_programa" },
+          { name: "Oferta laboral", link: "/bienestar/oferta_laboral" },
+          { name: "Contacto", link: "/bienestar/contacto" },
+          { name: "Calendario de Vicerrectoría de Bienestar", link: "/bienestar/calendario" },
+         
+         
+        ],
+      }
+    ],
+  },  
+
+  {
+    name: "Infraestructura",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "Infraestructura",
+        sublink: [
+          { name: "Laboratorios", link: "/infraestructura/laboratorios" },
+          { name: "Salas de computo", link: "/infraestructura/salas_de_computo" },
+          { name: "Auditorio", link: "/infraestructura/auditorio" },
+          { name: "Software Academico", link: "/infraestructura/software_academico" },
+        
+         
+        ],
+      }
+    ],
+  }, 
+  {
+    name: "Estudiantes-Graduados",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "Estudiantes-Graduados",
+        sublink: [
+          { name: "Estatuto estudiantil", link: "/estudiantes-graduados/Estatuto_estudiantil" },
+          { name: "Documentación Practicas Empresariales", link: "/estudiantes-graduados/documentacion_practicas_empresariales" },
+          { name: "Horarios de Asesorías", link: "/estudiantes-graduados/horarios_asesorias" },
+          { name: "MODALIDAD DE TRABAJO DE GRADO", link: "/estudiantes-graduados/modalida_trabajo_de_grado" },
+          { name: "Beca Trabajos y Monitorías", link: "/estudiantes-graduados/beca_trabajos_y_monitorias" },
+          { name: "Pruebas Saber Pro", link: "/estudiantes-graduados/pruebas_saber_pro" },
+          { name: "Amigos Académicos", link: "/estudiantes-graduados/amigos_academicos" },
+          { name: "Recursos", link: "/estudiantes-graduados/recursos" },
+          { name: "Registrar Atención Estudiantes", link: "/estudiantes-graduados/registrar_atencion_estudiantes" },
+          { name: "Descarga linux SILUX", link: "/estudiantes-graduados/descarga_linux_silux" },
+          { name: "Recursos de apoyo", link: "/estudiantes-graduados/recursos_de_apoyo" },
+          { name: "Lista de Correo", link: "/estudiantes-graduados/lista_de_correo" },
+          { name: "Graduados", link: "/estudiantes-graduados/graduados" },
+
+       
+        
+         
+        ],
+      }
+    ],
+  }, 
+  
+  
 ];

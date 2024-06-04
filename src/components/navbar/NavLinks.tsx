@@ -11,8 +11,8 @@ const NavLinks = () => {
 
   return (
     <>
-      {links.map((link) => (
-        <div>
+      {links.map((link, index) => (
+        <div key={index} className="relative">
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
@@ -31,29 +31,33 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
+                <div
+                  className={`absolute top-20 hidden group-hover:md:block hover:md:block ${index > links.length / 2 ? "right-0" : ""}`}
+                >
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
-                mt-1 bg-white rotate-45"
+                mt-1 bg-white rotate-45 shadow-lg"
                     ></div>
                   </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
-                    {link.sublinks.map((mysublinks) => (
-                      <div>
+                  <div className="bg-white p-5 flex flex-wrap gap-10 shadow-lg">
+                    {link.sublinks.map((mysublinks, subIndex) => (
+                      <div key={subIndex}>
                         <h1 className="text-lg font-semibold">
                           {mysublinks.Head}
                         </h1>
-                        {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5">
-                            <Link
-                              href={slink.link}
-                              className="hover:text-primary"
-                            >
-                              {slink.name}
-                            </Link>
-                          </li>
-                        ))}
+                        <ul>
+                          {mysublinks.sublink.map((slink, subSlinkIndex) => (
+                            <li key={subSlinkIndex} className="text-sm text-gray-600 my-2.5">
+                              <Link
+                                href={slink.link}
+                                className="hover:text-primary"
+                              >
+                                {slink.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     ))}
                   </div>
@@ -68,8 +72,8 @@ const NavLinks = () => {
       `}
           >
             {/* sublinks */}
-            {link.sublinks.map((slinks) => (
-              <div>
+            {link.sublinks.map((slinks, subLinkIndex) => (
+              <div key={subLinkIndex}>
                 <div>
                   <h1
                     onClick={() =>
@@ -94,8 +98,8 @@ const NavLinks = () => {
                       subHeading === slinks.Head ? "md:hidden" : "hidden"
                     }`}
                   >
-                    {slinks.sublink.map((slink) => (
-                      <li className="py-3 pl-14">
+                    {slinks.sublink.map((slink, innerSubLinkIndex) => (
+                      <li key={innerSubLinkIndex} className="py-3 pl-14">
                         <Link href={slink.link}>{slink.name}</Link>
                       </li>
                     ))}
