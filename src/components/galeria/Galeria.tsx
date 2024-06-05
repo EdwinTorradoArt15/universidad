@@ -21,7 +21,7 @@ const Galeria = () => {
               alt="Foto 1"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/1.png"
               width="400"
             />
           </div>
@@ -33,7 +33,7 @@ const Galeria = () => {
               alt="Foto 2"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/10.png"
               width="400"
             />
           </div>
@@ -45,7 +45,7 @@ const Galeria = () => {
               alt="Foto 3"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/22.png"
               width="400"
             />
           </div>
@@ -57,7 +57,7 @@ const Galeria = () => {
               alt="Foto 4"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/16.png"
               width="400"
             />
           </div>
@@ -69,7 +69,7 @@ const Galeria = () => {
               alt="Foto 5"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/12.png"
               width="400"
             />
           </div>
@@ -81,7 +81,7 @@ const Galeria = () => {
               alt="Foto 6"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/30.png"
               width="400"
             />
           </div>
@@ -93,7 +93,7 @@ const Galeria = () => {
               alt="Foto 7"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/27.png"
               width="400"
             />
           </div>
@@ -105,7 +105,7 @@ const Galeria = () => {
               alt="Foto 8"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/Galeria/EDITADAS/8.png"
               width="400"
             />
           </div>

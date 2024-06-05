@@ -44,10 +44,7 @@ export const secondNavbarData = [
     id: 2,
     name: "Formación-Investigación",
   },
-  {
-    id: 3,
-    name: "Proyección Social",
-  },
+
   {
     id: 4,
     name: "Visibilidad-Movilidad",
@@ -107,21 +104,8 @@ export const links = [
       
     ],
   },
-  {
-    name: "Proyeccion social",
-    submenu: true,
-    sublinks: [
-      {
-        Head: "Proyeccion social",
-        sublink: [
-          { name: "Proyeccion social", link: "/proyeccion_social/proyeccion" },
-          { name: "Extensión", link: "/proyeccion_social/extension" },
-          { name: "Practicas empresariales", link: "/proyeccion_social/practicas" },
-         
-        ],
-      }
-    ],
-  },
+ 
+  
   {
     name: "Visibilidad-Movilidad",
     submenu: true,
