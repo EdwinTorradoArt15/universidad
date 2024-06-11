@@ -1,13 +1,12 @@
-"use client";
+'use client';
 
 import Link from "next/link";
 import logo from "../../../public/images/logo_ufps.png";
 import Image from "next/image";
 
-
 const Footer = () => {
   return (
-    <footer className="bg-[#424242] text-gray-400 py-8 sm:py-12">
+    <footer className="bg-[#424242] text-gray-400 py-8 sm:py-12 mt-auto w-full">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex items-center">
           <Image
