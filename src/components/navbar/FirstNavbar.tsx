@@ -53,17 +53,12 @@ const FirstNavbar = () => {
           </a>
         </div>
 
-        <div className="max-w-screen-xl mx-auto flex items-center font-medium justify-between p-5">
-          <div className="flex items-center md:w-auto w-full">
-            <img src={logo.src} alt="logo" className="md:cursor-pointer h-20" />
-            <div className="text-3xl md:hidden ml-4" onClick={() => setOpen(!open)}>
-              {open ? <IoClose /> : <FaBars />}
-            </div>
-          </div>
+        <div className="mx-auto flex items-center font-medium justify-between">
+         
           <p className="text-xs md:text-base md:ml-4 md:px-2 md:py-1 bg-[#424242] text-white rounded-lg flex-1 text-center">
             <span className="text-lg">Ingeniería Electromecánica</span>
           </p>
-          <ul className="md:flex hidden uppercase items-center gap-8 z-50 flex-shrink-0">
+          <ul className="md:flex hidden uppercase items-center gap-4 z-50 flex-shrink-0">
             <li>
               <Link href="/" className="py-7 px-3 inline-block">
                 Inicio
