@@ -24,7 +24,7 @@ const Novedades = () => {
               alt="Novedad 1"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/novedades/1.jpg"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
@@ -50,7 +50,7 @@ const Novedades = () => {
               alt="Novedad 2"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/novedades/1.jpg"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
@@ -77,7 +77,7 @@ const Novedades = () => {
               alt="Novedad 3"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/novedades/1.jpg"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
@@ -103,7 +103,7 @@ const Novedades = () => {
               alt="Novedad 4"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/novedades/1.jpg"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
@@ -126,7 +126,7 @@ const Novedades = () => {
         <div className="flex justify-center mt-6">
           <Link
             className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-            href="#"
+            href="contenido/novedades"
           >
             Ver más
           </Link>
