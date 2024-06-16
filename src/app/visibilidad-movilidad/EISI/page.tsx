@@ -1,6 +1,6 @@
 import React from "react";
 import FormacionLayout from "@/app/layouts/formacionLayout";
-import GaleriaCompleta from "@/components/galeria/GaleriaCompleta";
+import EISI from "@/components/visibilidad-movilidad/EISI/eisi";
 
 const Extension: React.FC = () => {
   return (
@@ -10,10 +10,10 @@ const Extension: React.FC = () => {
       <div
         className="mx-25"
         style={{ marginTop: "30px", textAlign: "justify" }}
-      > 
+      >
         <br />
 
-    <GaleriaCompleta></GaleriaCompleta>
+    <EISI></EISI>
 
       </div>
     </FormacionLayout>

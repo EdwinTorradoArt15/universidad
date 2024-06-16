@@ -69,7 +69,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Programa",
+      
         sublink: [
           { name: "Presentacion", link: "/programa/presentacion" },
           { name: "Misión, Visión y Valores", link: "/programa/mision-vision" },
@@ -92,7 +92,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Formacion-Investigacion",
+       
         sublink: [
           { name: "Investigación en el Programa", link: "/formacion-investigacion/investigacion" },
           { name: "Hablemos de investigacion", link: "/formacion-investigacion/hablemos_de_investigacion" },
@@ -111,10 +111,10 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Visibilidad-Movilidad",
+        
         sublink: [
           { name: "Entorno nacional e internacional", link: "/visibilidad-movilidad/interaccion" },
-          { name: "Mobilidad del programa", link: "/visibilidad-movilidad/movilidad" },
+          { name: "Movilidad del programa", link: "/visibilidad-movilidad/movilidad" },
           { name: "Convocatorias Vigentes", link: "/visibilidad-movilidad/convocatorias_vigentes" },
           { name: "EISI", link: "/visibilidad-movilidad/EISI" },
           { name: "CIINATIC", link: "/visibilidad-movilidad/CIINATIC" },
@@ -129,7 +129,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Bienestar",
+      
         sublink: [
           { name: "Bienestar univiersitario", link: "/bienestar/bienestar_universitario" },
           { name: "Bienestar univiersitario en el programa", link: "/bienestar/bienestar_universitario_en_el_programa" },
@@ -148,7 +148,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        Head: "Infraestructura",
+      
         sublink: [
           { name: "Laboratorios", link: "/infraestructura/laboratorios" },
           { name: "Salas de computo", link: "/infraestructura/salas_de_computo" },
@@ -160,12 +160,14 @@ export const links = [
       }
     ],
   }, 
+
+  {/* 
   {
     name: "Estudiantes-Graduados",
     submenu: true,
     sublinks: [
       {
-        Head: "Estudiantes-Graduados",
+       
         sublink: [
           { name: "Estatuto estudiantil", link: "/estudiantes-graduados/Estatuto_estudiantil" },
           { name: "Documentación Practicas Empresariales", link: "/estudiantes-graduados/documentacion_practicas_empresariales" },
@@ -187,7 +189,7 @@ export const links = [
         ],
       }
     ],
-  }, 
+  },  */}
   
   
 ];

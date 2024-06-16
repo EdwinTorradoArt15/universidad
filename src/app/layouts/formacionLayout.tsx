@@ -1,5 +1,5 @@
 import React from 'react';
-import { FirstNavbar } from "@/components/navbar";
+import TestNavbar from "@/components/navbar/testNavbar";
 import  SuperiorNavbar  from "@/components/navbar/superiorNavbar";
 import  TopNavbar  from "@/components/navbar/blog_navbar";
 import { Footer } from "@/components/footer";
@@ -13,7 +13,7 @@ export default function FormacionLayout({
     <>
     
    
-      <FirstNavbar />
+      <TestNavbar />
       {children}
       <Footer/>
     </>

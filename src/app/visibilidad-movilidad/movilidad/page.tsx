@@ -1,6 +1,6 @@
 import React from "react";
 import FormacionLayout from "@/app/layouts/formacionLayout";
-import GaleriaCompleta from "@/components/galeria/GaleriaCompleta";
+import Movilidad from "@/components/visibilidad-movilidad/movilidad/movilidad";
 
 const Extension: React.FC = () => {
   return (
@@ -10,10 +10,10 @@ const Extension: React.FC = () => {
       <div
         className="mx-25"
         style={{ marginTop: "30px", textAlign: "justify" }}
-      > 
+      >
         <br />
 
-    <GaleriaCompleta></GaleriaCompleta>
+    <Movilidad></Movilidad>
 
       </div>
     </FormacionLayout>
