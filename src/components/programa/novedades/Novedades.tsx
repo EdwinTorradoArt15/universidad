@@ -24,21 +24,21 @@ const Novedades = () => {
               alt="Novedad 1"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="/images/novedades/1.jpg"
+              src="/images/novedades/graduados.jpg"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium">
                   <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />
-                  25 de Mayo, 2023
+                  29 de Junio, 2024
                 </p>
               </div>
               <h3 className="font-semibold tracking-tight">
-                Nuevo Producto: Taza Mágica
+                Graduados 
               </h3>
               <p className="text-sm leading-none">
-                Descubre nuestra nueva taza con diseños únicos y mágicos.
+                Estudiantes graduados 2024-I.
               </p>
             </div>
           </div>
@@ -50,22 +50,21 @@ const Novedades = () => {
               alt="Novedad 2"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="/images/novedades/1.jpg"
+              src="/images/novedades/Pasantias.jpg"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium">
                   <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />
-                  12 de Junio, 2023
+                  25 de Junio, 2024
                 </p>
               </div>
               <h3 className="font-semibold tracking-tight">
-                Lanzamiento de Línea de Ropa Sostenible
+                Pasantias en Chile
               </h3>
               <p className="text-sm leading-none">
-                Conoce nuestra nueva colección de ropa hecha con materiales
-                reciclados.
+                Estudiantes pasantes en Chile 2024-I.
               </p>
             </div>
           </div>

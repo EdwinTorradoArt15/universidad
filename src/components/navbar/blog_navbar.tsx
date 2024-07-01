@@ -10,25 +10,25 @@ export default function Component() {
     <header className="flex h-10 w-full shrink-0 items-center px-3 md:px-6 bg-[#aa1916] z-50">
       <div className="flex w-full justify-between items-center">
         <div className="hidden lg:flex">
-          <nav className="flex gap-6 text-lg font-medium md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6 text-white">
-            <Link href="https://ww2.ufps.edu.co/universidad/perfiles/aspirantes/952" className="flex items-center gap-2 text-lg font-semibold md:text-base text-white" prefetch={false}>
-              <FaUsers className="h-5 w-5 text-white" />
+        <nav className="flex gap-6 text-sm font-normal md:flex-row md:items-center md:gap-5 md:text-xs lg:gap-6 text-white">
+            <Link href="https://ww2.ufps.edu.co/universidad/perfiles/aspirantes/952" className="flex items-center gap-2 text-sm font-normal md:text-xs text-white" prefetch={false}>
+              <FaUsers className="h-4 w-4 text-white" />
               Aspirantes
             </Link>
-            <Link href="https://ww2.ufps.edu.co/universidad/perfiles/estudiantes/953" className="flex items-center gap-2 text-lg font-semibold md:text-base text-white" prefetch={false}>
-              <FaBookOpenReader className="h-5 w-5 text-white" />
+            <Link href="https://ww2.ufps.edu.co/universidad/perfiles/estudiantes/953" className="flex items-center gap-2 text-sm font-normal md:text-xs text-white" prefetch={false}>
+              <FaBookOpenReader className="h-4 w-4 text-white" />
               Estudiantes
             </Link>
-            <Link href="https://ww2.ufps.edu.co/universidad/perfiles/egresados/954" className="flex items-center gap-2 text-lg font-semibold md:text-base text-white" prefetch={false}>
-              <FaUserGraduate className="h-5 w-5 text-white" />
+            <Link href="https://ww2.ufps.edu.co/universidad/perfiles/egresados/954" className="flex items-center gap-2 text-sm font-normal md:text-xs text-white" prefetch={false}>
+              <FaUserGraduate className="h-4 w-4 text-white" />
               Graduados
             </Link>
-            <Link href="https://docentes.ufps.edu.co/" className="flex items-center gap-2 text-lg font-semibold md:text-base text-white" prefetch={false}>
-              <FaPencilRuler className="h-5 w-5 text-white" />
+            <Link href="https://docentes.ufps.edu.co/" className="flex items-center gap-2 text-sm font-normal md:text-xs text-white" prefetch={false}>
+              <FaPencilRuler className="h-4 w-4 text-white" />
               Docentes
             </Link>
-            <Link href="#" className="flex items-center gap-2 text-lg font-semibold md:text-base text-white" prefetch={false}>
-              <FaSuitcase className="h-5 w-5 text-white" />
+            <Link href="#" className="flex items-center gap-2 text-sm font-normal md:text-xs text-white" prefetch={false}>
+              <FaSuitcase className="h-4 w-4 text-white" />
               Empresarios
             </Link>
           </nav>
