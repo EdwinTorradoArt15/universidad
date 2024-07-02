@@ -76,21 +76,21 @@ const Novedades = () => {
               alt="Novedad 3"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="/images/novedades/1.jpg"
+              src="/images/Galeria/EDITADAS/27.png"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium">
-                  <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />3 de
-                  Julio, 2023
+                  <FaCalendarAlt className="mr-1 inline-block h-4 w-4" /> 
+                  21 de Junio, 2024
                 </p>
               </div>
               <h3 className="font-semibold tracking-tight">
-                Nuevo Servicio de Suscripción
+                Sustentacion de proyectos: Control Digital.
               </h3>
               <p className="text-sm leading-none">
-                Suscríbete y recibe nuestros productos de forma recurrente.
+                Estudiantes sustentan sus proyectos de la materia Control Digital.
               </p>
             </div>
           </div>
@@ -102,21 +102,21 @@ const Novedades = () => {
               alt="Novedad 4"
               className="object-cover w-full aspect-[4/3]"
               height="300"
-              src="/images/novedades/1.jpg"
+              src="/images/Galeria/EDITADAS/12.png"
               width="400"
             />
             <div className="bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 flex flex-col gap-2">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium">
                   <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />
-                  20 de Agosto, 2023
+                  18 de Junio, 2024
                 </p>
               </div>
               <h3 className="font-semibold tracking-tight">
-                Nuevo Programa de Lealtad
+              Sustentacion de proyectos: Maquinas II.
               </h3>
               <p className="text-sm leading-none">
-                Acumula puntos por tus compras y canjéalos por premios.
+              Estudiantes sustentan sus proyectos de la materia Maquinas II.
               </p>
             </div>
           </div>

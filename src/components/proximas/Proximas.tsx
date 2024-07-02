@@ -24,19 +24,19 @@ const Proximas = () => {
               alt="Actividad 1"
               className="[grid-area:stack] object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/proximas/4.jpg"
               width="400"
             />
             <div className="flex-1 [grid-area:stack] bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 justify-end flex flex-col gap-2">
               <h3 className="font-semibold tracking-tight">
-                Taller de Pintura al Óleo
+                Incripciones a cursos vacacionales 
               </h3>
               <p className="text-sm leading-none">
-                Aprende técnicas de pintura al óleo en un ambiente relajado.
+                Conoce las fechas y las materias ofertadas para cursos vacacionales.
               </p>
               <p className="text-sm font-medium">
                 <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />
-                25 de Mayo, 2023
+                17 de julio, 2024
               </p>
             </div>
           </div>
@@ -48,19 +48,19 @@ const Proximas = () => {
               alt="Actividad 2"
               className="[grid-area:stack] object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/proximas/3.jpg"
               width="400"
             />
             <div className="flex-1 [grid-area:stack] bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 justify-end flex flex-col gap-2">
               <h3 className="font-semibold tracking-tight">
-                Taller de Cocina Vegana
+                Habilitacion de materias 2024-I
               </h3>
               <p className="text-sm leading-none">
-                Aprende a cocinar deliciosos platos veganos.
+                Se da inicio a las habilitaciones.
               </p>
               <p className="text-sm font-medium">
                 <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />
-                12 de Junio, 2023
+                16 de Julio, 2024
               </p>
             </div>
           </div>
@@ -72,19 +72,19 @@ const Proximas = () => {
               alt="Actividad 3"
               className="[grid-area:stack] object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/proximas/2.jpg"
               width="400"
             />
             <div className="flex-1 [grid-area:stack] bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 justify-end flex flex-col gap-2">
               <h3 className="font-semibold tracking-tight">
-                Taller de Fotografía Nocturna
+                Examenes finales
               </h3>
               <p className="text-sm leading-none">
-                Aprende a capturar impresionantes fotos nocturnas.
+                Se da inicio a la semana de examenes.
               </p>
               <p className="text-sm font-medium">
-                <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />3 de
-                Julio, 2023
+                <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />
+                24 de junio, 2024
               </p>
             </div>
           </div>
@@ -96,19 +96,19 @@ const Proximas = () => {
               alt="Actividad 4"
               className="[grid-area:stack] object-cover w-full aspect-[4/3]"
               height="300"
-              src="https://picsum.photos/1280/720"
+              src="/images/proximas/1.jpg"
               width="400"
             />
             <div className="flex-1 [grid-area:stack] bg-black/70 group-hover:opacity-90 transition-opacity text-white p-4 lg:p-6 justify-end flex flex-col gap-2">
               <h3 className="font-semibold tracking-tight">
-                Taller de Meditación Guiada
+                Fechas de examenes finales.
               </h3>
               <p className="text-sm leading-none">
-                Aprende técnicas de meditación para reducir el estrés.
+                Conoce las nuevas fechas de los examenes finales de Ingenieria electromecanica 2024-I.
               </p>
               <p className="text-sm font-medium">
                 <FaCalendarAlt className="mr-1 inline-block h-4 w-4" />
-                20 de Agosto, 2023
+                1 de junio, 2024
               </p>
             </div>
           </div>
